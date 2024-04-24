@@ -29,8 +29,6 @@ const useCustomMove = () => {
   const moveToList = (pageParam) => {
     let queryStr = "";
 
-    console.log("pageParam : ", pageParam);
-
     if (pageParam) {
       const pageNum = getNum(pageParam.page, 1);
       const sizeNum = getNum(pageParam.size, 10);
